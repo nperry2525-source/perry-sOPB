@@ -384,6 +384,15 @@ section.tight { padding: 64px 0; }
 .puppy-card .media { aspect-ratio: 1/1; overflow: hidden; }
 .puppy-card .media img { width: 100%; height: 100%; object-fit: cover; }
 .puppy-card .body { padding: 20px 22px 24px; display: flex; flex-direction: column; flex: 1; }
+.puppy-card .cross-tag {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gold-bright);
+  margin-bottom: 6px;
+}
 .puppy-card h3 { font-size: 1.25rem; margin-bottom: 4px; }
 .puppy-card .sex-tag {
   align-self: flex-start;
