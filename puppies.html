@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+<div class="smoke-bg" aria-hidden="true"><span></span><span></span><span></span></div>
 
 <header class="site-header">
   <div class="container">
@@ -177,7 +178,12 @@
       <h2>Puppy Inquiry Form</h2>
       <p>Let us know which puppy you're interested in and we'll follow up with next steps and a deposit link.</p>
     </div>
-    <form class="form-card" style="max-width:760px;margin:0 auto;" action="mailto:perrydog23@gmail.com" method="post" enctype="text/plain">
+    <form class="form-card" style="max-width:760px;margin:0 auto;" action="https://formsubmit.co/perrydog23@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="New puppy inquiry — Perry's One Pride Bullies">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://nperry2525-source.github.io/perry-sOPB/thank-you.html">
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
       <div class="form-grid">
         <div class="field">
           <label for="p-name">Your Name</label>
